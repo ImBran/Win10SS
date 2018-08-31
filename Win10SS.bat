@@ -26,7 +26,7 @@ ECHO ####Windows 10 Service Stripper####
 ECHO Program Options
 ECHO 1. Remove Bloatware
 ECHO 2. Disable Telemetry (Enterprise v. ONLY)
-ECHO 3.	Disable Bloat Services
+ECHO 3. Disable Bloat Services
 ECHO 4. Disable Cortana Search
 ECHO 5. Enable "GOD MODE"
 ECHO 6. Exit Program
