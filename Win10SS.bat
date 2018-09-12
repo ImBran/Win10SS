@@ -30,13 +30,12 @@ ECHO 3. Disable Bloat Services
 ECHO 4. Disable Cortana Search
 ECHO 5. Enable "GOD MODE"
 ECHO 6. Exit Program
-CHOICE /C 12345 /M "Enter Program Opition"
-IF ERRORLEVEL 7 GOTO Leave_Program
-IF ERRORLEVEL 6 GOTO GOD_MODE
-IF ERRORLEVEL 5 GOTO Disable_CortanaSearch
-IF ERRORLEVEL 4 GOTO Disable_Bloat_Services
-IF ERRORLEVEL 3 GOTO Disable_Telemetry
-IF ERRORLEVEL 2 GOTO 
+CHOICE /C 123456 /M "Enter Program Opition"
+IF ERRORLEVEL 6 GOTO Leave_Program
+IF ERRORLEVEL 5 GOTO GOD_MODE
+IF ERRORLEVEL 4 GOTO Disable_CortanaSearch
+IF ERRORLEVEL 3 GOTO Disable_Bloat_Services
+IF ERRORLEVEL 2 GOTO Disable_Telemetry
 IF ERRORLEVEL 1 GOTO Remove_Bloatware
 :Remove_Bloatware
 ECHO Processing...
