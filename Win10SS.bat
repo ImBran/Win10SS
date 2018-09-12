@@ -86,13 +86,11 @@ ECHO ATTN: This will DISABLE Services associated to MS store, telephony, messagi
 PAUSE
 ECHO Processing...
 powershell -command "Get-Service XboxGipSvc | Set-Service -StartupType Disabled"
-powershell -command "Get-Service xbgm | Set-Service -StartupType Disabled"
 powershell -command "Get-Service XblAuthManager | Set-Service -StartupType Disabled"
 powershell -command "Get-Service XblGameSave | Set-Service -StartupType Disabled"
 powershell -command "Get-Service XboxNetApiSvc | Set-Service -StartupType Disabled"
 powershell -command "Get-Service InstallService | Set-Service -StartupType Disabled"
 powershell -command "Get-Service TapiSrv | Set-Service -StartupType Disabled"
-powershell -command "Get-Service MessagingService_22450 | Set-Service -StartupType Disabled"
 powershell -command "Get-Service SEMgrSvc | Set-Service -StartupType Disabled"
 powershell -command "Get-Service PhoneSvc | Set-Service -StartupType Disabled"
 powershell -command "Get-Service WalletService | Set-Service -StartupType Disabled"
