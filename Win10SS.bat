@@ -10,9 +10,9 @@ ECHO.
 ECHO [NOTE:] REQUIRES ADMINISTRATIVE ACCESS!! USE AT OWN DISCRETION! This program will modify Windows Registry Keys, create DIR and log @ ("C:\Program Files\Win10SS"), Disable Windows Services. 
 ECHO.
 PAUSE
-MKDIR "C:\Program Files\WInSecure"
-DATE /T >> "C:\Program Files\bats\WinSS\WinSS.log"
-TIME /T >> "C:\Program Files\bats\WinSS\WinSS.log"
+MKDIR "C:\Program Files\Win10SS"
+DATE /T >> "C:\Program Files\Win10SS\Win10SS.log"
+TIME /T >> "C:\Program Files\Win10SS\Win10SS.log"
 ECHO. **** If Access is denied 3x, quit application, and open with ADMINISTRATIVE ACCESS! ****
 PAUSE
 ECHO.
@@ -55,8 +55,8 @@ powershell -command "Get-AppxPackage *windowsstore* | Remove-AppxPackage"
 powershell -command "Get-AppxPackage *getstarted* | Remove-AppxPackage"
 powershell -command "Get-AppxPackage *gethelp* | Remove-AppxPackage"
 ECHO.
-ECHO "Remove_Bloatware LASTRUN:" >> "C:\Program Files\bats\WinSS\WinSS.log"
-powershell -command date >> "C:\Program Files\bats\WinSS\WinSS.log"
+ECHO "Remove_Bloatware LASTRUN:" >> "C:\Program Files\Win10SS\Win10SS.log"
+powershell -command date >> "C:\Program Files\Win10SS\Win10SS.log"
 ECHO.
 ECHO Process Completed Successfully!
 PAUSE
@@ -67,8 +67,8 @@ reg add HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection /v AllowTelemetr
 powershell -command "Get-Service DiagTrack | Set-Service -StartupType Disabled"
 powershell -command "Get-Service dmwappushservice | Set-Service -StartupType Disabled"
 ECHO Telemetry had been disabled at %TIME% on %DATE%.
-ECHO "Disable Telemetry LASTRUN:" >> "C:\Program Files\bats\WinSS\WinSS.log"
-powershell -command date >> "C:\Program Files\bats\WinSS\WinSS.log"
+ECHO "Disable Telemetry LASTRUN:" >> "C:\Program Files\Win10SS\Win10SS.log"
+powershell -command date >> "C:\Program Files\Win10SS\Win10SS.log"
 ECHO.
 ECHO Process Completed.
 PAUSE
@@ -92,14 +92,14 @@ powershell -command "Get-Service XblGameSave | Set-Service -StartupType Disabled
 powershell -command "Get-Service XboxNetApiSvc | Set-Service -StartupType Disabled"
 powershell -command "Get-Service InstallService | Set-Service -StartupType Disabled"
 powershell -command "Get-Service TapiSrv | Set-Service -StartupType Disabled"
-powershell -command "Get-Service MessagingService_203f9 | Set-Service -StartupType Disabled"
+powershell -command "Get-Service MessagingService_22450 | Set-Service -StartupType Disabled"
 powershell -command "Get-Service SEMgrSvc | Set-Service -StartupType Disabled"
 powershell -command "Get-Service PhoneSvc | Set-Service -StartupType Disabled"
 powershell -command "Get-Service WalletService | Set-Service -StartupType Disabled"
 ECHO.
 ECHO Bloat Services have been disabled. View Win10ss_README.txt for full list.
-ECHO Disble Bloat Services LAST RUN: >> "C:\Program Files\bats\WinSS\WinSS.log"
-powershell -command date >> "C:\Program Files\bats\WinSS\WinSS.log"
+ECHO Disble Bloat Services LAST RUN: >> "C:\Program Files\Win10SS\Win10SS.log"
+powershell -command date >> "C:\Program Files\Win10SS\Win10SS.log"
 ECHO Process Completed Successfully
 PAUSE
 GOTO BEGIN
@@ -114,7 +114,7 @@ GOTO BEGIN
 
 :Leave_Program
 ECHO GOODBYE!
-ECHO [Author: Brandon Marcelle, Web: imbrankm.com]
+ECHO [Author: Brandon Marcelle, bran@imbrankm.com]
 GOTO End 
 
 :End
