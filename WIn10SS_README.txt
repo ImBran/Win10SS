@@ -1,6 +1,6 @@
 Windows 10 Service Stripper (R) 2018
 Author: brandon marcelle
-Web: 	imbrankm.com
+Web: 	brandonmarcelle.com
 
 General Use Notes
 -----------------------------------------------
