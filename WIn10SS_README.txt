@@ -48,4 +48,4 @@ Brandon Marcelle assumes no responsibility or liability for any errors or omissi
 Use at your own risk. This program has been written for personal use to help assist in the initialization process of the OS and not substitute for any anti-virus or defensive measures against corruption. 
 
 COPYRIGHT (c) 2018 brandonmarcelle.com | All rights reserved.
-Win10Helper and its use are subject to a fair use agreement. 
+WinSS and its use are subject to a fair use agreement. 
