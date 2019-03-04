@@ -43,9 +43,9 @@ C:\Program Files\Win10SS\
 
 DISCLAIMER
 ---------------------------------------
-Brandon Marcelle assumes no responsibility or liability for any errors or omissions in the content program. The information contained in this program is provided on an ìas isî basis with no guarantees of completeness, accuracy, usefulness or timeliness.
+Brandon Marcelle assumes no responsibility or liability for any errors or omissions in the content program. The information contained in this program is provided on an ‚Äúas is‚Äù basis with no guarantees of completeness, accuracy, usefulness or timeliness.
 
 Use at your own risk. This program has been written for personal use to help assist in the initialization process of the OS and not substitute for any anti-virus or defensive measures against corruption. 
 
-COPYRIGHT (c) 2018 imbrankm.com | All rights reserved.
+COPYRIGHT (c) 2018 brandonmarcelle.com | All rights reserved.
 Win10Helper and its use are subject to a fair use agreement. 
